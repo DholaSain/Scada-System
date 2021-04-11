@@ -1,10 +1,14 @@
-# pcc_reading
+# Scada System
 
-A new Flutter project.
+A demo application for PCC reading meter.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+
+Follow me on Instagram
+
+- [Instagram: Follow(https://instagram.com/dholasain)
 
 A few resources to get you started if this is your first Flutter project:
 
