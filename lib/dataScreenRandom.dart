@@ -3,9 +3,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-class PccReading extends StatefulWidget {
+class RandomDataTable extends StatefulWidget {
   @override
-  _PccReadingState createState() => _PccReadingState();
+  _RandomDataTableState createState() => _RandomDataTableState();
 }
 
 double c1R1 = 0.0;
@@ -22,7 +22,7 @@ double distortion = 0.0;
 double frequency = 0.0;
 bool isStopped = true;
 
-class _PccReadingState extends State<PccReading> {
+class _RandomDataTableState extends State<RandomDataTable> {
   changeTimer() {
     Timer.periodic(Duration(milliseconds: 500), (timer) {
       if (isStopped) {
@@ -62,9 +62,6 @@ class _PccReadingState extends State<PccReading> {
   Widget build(BuildContext context) {
     // changeTimer();
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('Scada System'),
-      // ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-import 'dataScreen.dart';
+import 'package:scada_system/dataURL.dart';
 
 Future<void> main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: PccReading(),
+      home: DataByURL(),
     );
   }
 }
